@@ -9,6 +9,9 @@ Easy and Simple Mention Bot for Your Groups !
 UltraUX On Telegram [UltraUX](https://t.me/ultraux_bot) |||| 
 UltraUX Mention Bot on Telegram [UltraUX](t.me/ultraux_mentionbot)
 
+### 🚀 Deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/noob-dv/UltraUX-Mention-Bot)
+
 CREDITS
 
 ```❤️ DV ( Steeve ) ( @digvijaysingh178 )
