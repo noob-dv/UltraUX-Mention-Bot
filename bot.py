@@ -119,5 +119,5 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> BOT STARTED <<")
+print("UltraUX Imported MentionAll\n UltraUX Imported Start\n UltraUX Imported Help\n UltraUX Connected to Telethon\n Telethon Connection Succesful!\n UltraUX Started you mention Robot\n>> Ultra UX Mention BOT STARTED <<\n Made By @digvijaysingh178!")
 client.run_until_disconnected()
