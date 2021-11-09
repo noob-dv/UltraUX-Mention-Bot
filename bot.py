@@ -25,8 +25,10 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Support Group', 'https://t.me/ultraux_official'),
-        Button.url('Main Bot', 't.me/ultraux_bot')
+        Button.url('🔥Support Group🔥', 'https://t.me/ultraux_official'),
+        Button.url('⚡️Main Bot⚡️', 't.me/ultraux_bot')
+        Button.url('💥Owner💥', 't.me/digvijaysingh178')
+        Button.url('♻️Commands♻️', 'https://telegra.ph/UltraUX-Mention-Bot-Commands-11-09')
       ]
     )
   )
