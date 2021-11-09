@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm UltraUX Mention Bot**, I can mention almost all members in group or channel \nClick **/help** for more information__\n\n Follow [UltraUX Series](t.me/ultraux_bot)",
+    "__**I'm UltraUX Mention Bot**, [I](https://telegra.ph/file/3555e5f63ccf009faaf42.mp4) can mention almost all members in group or channel \nClick **/help** for more information__\n\n Follow [UltraUX Series](t.me/ultraux_bot)",
     link_preview=False,
     buttons=(
       [
