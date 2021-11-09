@@ -6,7 +6,7 @@
 Easy and Simple Mention Bot for Your Groups !
 
 # UltraUX
-Me On Telegram [UltraUX](https://t.me/ultraux_bot)
+UltraUX On Telegram UltraUX \n UltraUX Mention Bot on Telegram UltraUX
 
 CREDITS
 
