@@ -1,6 +1,7 @@
 {
     "name": "UltraUX Mention Bot",
     "description": "A simple/useful mention bot for telegram.",
+    "logo": "https://telegra.ph/file/e0d298122a77298661478.jpg",
     "env": {
         "TOKEN": {
             "description": "Enter bot token."
