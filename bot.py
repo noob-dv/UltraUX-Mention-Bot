@@ -22,7 +22,7 @@ spam_chats = []
 async def start(event):
   await event.reply(
     "__**I'm UltraUX Mention Bot**, [I](https://telegra.ph/file/3555e5f63ccf009faaf42.mp4) can mention almost all members in group or channel \nClick **/help** for more information__\n\n Follow [UltraUX Series](t.me/ultraux_bot)",
-    link_preview=False,
+    link_preview=True,
     buttons=(
       [
         Button.url('🔥Support Group🔥', 'https://t.me/ultraux_official'),
@@ -38,7 +38,7 @@ async def help(event):
   helptext = "**Help Menu of UltraUX Mention Bot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nFollow [UltraUX Series](t.me/ultraux_bot)"
   await event.reply(
     helptext,
-    link_preview=False,
+    link_preview=True,
     buttons=(
       [
         Button.url('📣 Support Group', 'https://t.me/ultraux_official'),
