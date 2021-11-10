@@ -8,7 +8,7 @@ from telethon.errors import UserNotParticipantError
 
 logging.basicConfig(
     level=logging.INFO,
-    format=' %(message)s - %(name)s - [%(levelname)s]'
+    format='%(name)s - [%(levelname)s] - %(message)s '
 )
 LOGGER = logging.getLogger(__name__)
 
