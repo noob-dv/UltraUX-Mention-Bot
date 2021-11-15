@@ -21,13 +21,13 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**I'm UltraUX Mention Bot**, [I](https://telegra.ph/file/3555e5f63ccf009faaf42.mp4) can mention almost all members in group or channel \nClick **/help** for more information__\n\n Follow [UltraUX Series](t.me/ultraux_bot)",
+    "__**I'm Social Mention Bot**, [I]("https://telegra.ph/SOCIAL-MECHANIC-11-15") can mention almost all members in group or channel \nClick **/help** for more information__\n\n Follow [SOCIAL MECHANIC](t.me/Social_Mention_Robot)",
     link_preview=True,
     buttons=(
       [
-        Button.url('🔥Support Group🔥', 'https://t.me/ultraux_official'),
-        Button.url('⚡️Main Bot⚡️', 't.me/ultraux_bot'),
-        Button.url('💥Owner💥', 't.me/digvijaysingh178'),
+        Button.url('🔥Support Group🔥', 'https://t.me/tamil_chat_group_1'),
+        Button.url('⚡️Main Bot⚡️', 't.me/Social_Mention_Robot'),
+        Button.url('💥Owner💥', 't.me/social_mechanic_1997'),
         Button.url('♻️Commands♻️', 'https://telegra.ph/UltraUX-Mention-Bot-Commands-11-09')
       ]
     )
@@ -41,8 +41,8 @@ async def help(event):
     link_preview=True,
     buttons=(
       [
-        Button.url('📣 Support Group', 'https://t.me/ultraux_official'),
-        Button.url('Main Bot', 't.me/ultraux_bot')
+        Button.url('📣 Support Group', 'https://t.me/tamil_chat_group_1'),
+        Button.url('Main Bot', 't.me/Social_Mention_Robot')
       ]
     )
   )
@@ -51,7 +51,7 @@ async def help(event):
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command can be use in groups and channels! for more support visit @ultraux_official__")
+    return await event.respond("__This command can be use in groups and channels! for more support visit @social_mechanic")
   
   is_admin = False
   try:
@@ -84,9 +84,9 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = await event.get_reply_message()
     if msg == None:
-        return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group for more support visit @ultraux_official)__")
+        return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group for more support visit @tamil_chat_group_1)__")
   else:
-    return await event.respond("__Reply to a message or give me some text to mention others! for more support visit @ultraux_official__")
+    return await event.respond("__Reply to a message or give me some text to mention others! for more support visit @tamil_chat_group_1")
   
   spam_chats.append(chat_id)
   usrnum = 0
