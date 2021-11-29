@@ -47,11 +47,12 @@ async def help(event):
     )
   )
   
+  
 @client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
 async def mentionall(event):
   chat_id = event.chat_id
   if event.is_private:
-    return await event.respond("__This command can be use in groups and channels! for more support visit @ultraux_official__")
+    return await event.respond("__This command can be use in groups and channels!__")
   
   is_admin = False
   try:
@@ -73,7 +74,7 @@ async def mentionall(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("__Only admins can mention all! for more support visit @ultraux_official__")
+    return await event.respond("__Only admins can mention all!__")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("__Give me one argument!__")
@@ -84,9 +85,9 @@ async def mentionall(event):
     mode = "text_on_reply"
     msg = await event.get_reply_message()
     if msg == None:
-        return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group for more support visit @ultraux_official)__")
+        return await event.respond("__I can't mention members for older messages! (messages which are sent before I'm added to group)__")
   else:
-    return await event.respond("__Reply to a message or give me some text to mention others! for more support visit @ultraux_official__")
+    return await event.respond("__Reply to a message or give me some text to mention others!__")
   
   spam_chats.append(chat_id)
   usrnum = 0
@@ -96,7 +97,7 @@ async def mentionall(event):
       break
     usrnum += 1
     usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
-    if usrnum == 7:
+    if usrnum == 5:
       if mode == "text_on_cmd":
         txt = f"{usrtxt}\n\n{msg}"
         await client.send_message(chat_id, txt)
